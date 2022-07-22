@@ -87,11 +87,6 @@ au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 "au Syntax * RainbowParenthesesLoadChevrons
 
-" TODO what does this do?
-let g:used_javascript_libs = 'jquery,underscore,backbone,react'
-
-"let g:syntastic_enable_perl_checkers = 1
-
 " Options for perl execution
 let g:ale_perl_perl_options = '-c -Mwarnings -Ilib -It/lib'
 
